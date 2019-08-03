@@ -1,2 +1,3 @@
 keyType = "S";
-steps = 1;
+steps = 1
+initChoice = true;
