@@ -1,5 +1,11 @@
 switch reloadSteps
 	{
+		
+		case 4:
+		currentDirection = instance_create_layer(x-10, y-100, "Instances", obj_W)
+		show_debug_message("D CREATED");
+		break;
+		
 		case 3:
 		currentDirection = instance_create_layer(x-10, y-100, "Instances", obj_A)
 		show_debug_message("A CREATED");

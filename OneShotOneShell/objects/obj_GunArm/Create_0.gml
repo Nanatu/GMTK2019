@@ -2,8 +2,8 @@ bullet = true;
 reloadSteps = 0;
 
 currentDirection = noone;
-roundChoice = rounds.SHOTGUN;
-keyPress = noone;
+roundChoice = noone;
+
 arrDirections[0] = obj_W;
 arrDirections[1] = obj_A;
 arrDirections[2] = obj_S;

@@ -1,9 +1,9 @@
 
-
 image_angle = point_direction(x,y,mouse_x,mouse_y);
 direction = point_direction(x,y,mouse_x,mouse_y);
-if (mouse_check_button_pressed(mb_left) && bullet)
+if (mouse_check_button(mb_left) && bullet)
 {
+	
 	if roundChoice = rounds.BULLET
 	{
 		with instance_create_layer(x, y, "Instances", obj_Bullet)
@@ -22,29 +22,28 @@ if (mouse_check_button_pressed(mb_left) && bullet)
 			{
 				image_angle = other.image_angle;
 				speed = 30 + random_range(-5,5);
-				direction = other.direction + random_range(-5,5);
+				direction = other.direction + random_range(-8,8);
 			}
 		}
 	}
-		//bullet = false;
-		//roundChoice = noone;
-		//reloadSteps = 4;
+	
+		bullet = false;
+		roundChoice = noone;
+		reloadSteps = 4;
 }
-
-
-
-
-
-
-//if (currentDirection == noone && roundChoice == noone)
-//{
-//	instance_create_layer(x-10, y-100, "Instances", obj_W)
-//	
-//	instance_create_layer(x-60, y-100, "Instances", obj_S)
-//}
 
 if (currentDirection == noone)
 {
+	if keyboard_check_pressed(ord("W")) && roundChoice == noone
+	{
+	roundChoice = rounds.BULLET;
+	}
+	
+	if keyboard_check_pressed(ord("S")) && roundChoice == noone
+	{
+	roundChoice = rounds.SHOTGUN;
+	}
+	
 	switch roundChoice
 	{
 	case rounds.BULLET:
