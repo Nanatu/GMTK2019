@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "06332afd-8df7-46f7-b46b-624a160a9338",
+            "Value": {
+                "id": "387b4f0d-4998-4f34-8b54-762bfd040e11",
+                "resourcePath": "objects\\obj_Bullet\\obj_Bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "13c887b9-897e-4abc-aa15-a90a9e32bd0d",
+            "Value": {
+                "id": "b77668dc-2a55-4a37-8c8d-4c8df52b34f0",
+                "resourcePath": "views\\13c887b9-897e-4abc-aa15-a90a9e32bd0d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "16388764-4372-4138-9a8b-20bc7a132a24",
             "Value": {
                 "id": "0bbcc66a-7258-4b62-bb08-62164f9b08bd",
@@ -223,6 +239,14 @@
             }
         },
         {
+            "Key": "987045a0-ede9-45aa-8812-f563a99f682b",
+            "Value": {
+                "id": "ba8824f1-b9dd-48cc-aa64-6018e5a047fb",
+                "resourcePath": "shaders\\shd_White\\shd_White.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "98bf8931-ce03-4f3a-9e03-645a79450835",
             "Value": {
                 "id": "8fa2eaf0-4b71-452a-baf3-0fd8bb68a17f",
@@ -236,6 +260,14 @@
                 "id": "4d483dda-aa67-4a06-a225-3101dc93ba5a",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ab8ebb8a-de79-4040-b444-d916dc361252",
+            "Value": {
+                "id": "236bd6db-62af-4183-9d74-7c2aa7bbc93c",
+                "resourcePath": "sprites\\spr_Bullet\\spr_Bullet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
