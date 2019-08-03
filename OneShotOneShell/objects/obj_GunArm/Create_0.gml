@@ -1,2 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+bullet = true;
+reloadSteps = 0;
+
+currentDirection = noone;
