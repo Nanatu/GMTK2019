@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "2e161bcd-e89a-4b1e-886c-9c737405b414",
+            "Value": {
+                "id": "4007ef29-0f2a-4db8-8c0e-7f3f2bc4c1ee",
+                "resourcePath": "scripts\\scr_ShotgunPattern\\scr_ShotgunPattern.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "344782d0-f30d-43de-9c2f-c6399a57ed35",
             "Value": {
                 "id": "1183e9ba-56c6-45c9-a15d-93ac49cf507d",
@@ -279,6 +287,14 @@
             }
         },
         {
+            "Key": "a5fe2ac3-1557-4f65-8c44-f0a0b85d59a9",
+            "Value": {
+                "id": "bbe005d3-d14e-41e1-b94c-c6ba9b339ccf",
+                "resourcePath": "sprites\\spr_Shotgun\\spr_Shotgun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "4d483dda-aa67-4a06-a225-3101dc93ba5a",
@@ -391,6 +407,14 @@
             }
         },
         {
+            "Key": "eed0f22e-1eda-4f11-b6c4-f9ef98ca67e3",
+            "Value": {
+                "id": "0fa3b57b-4a3b-4fc4-aff4-7a373da3d8de",
+                "resourcePath": "scripts\\scr_BulletPattern\\scr_BulletPattern.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "7f692434-71d3-4a76-a5d1-fefb3ec95603",
@@ -400,7 +424,8 @@
         }
     ],
     "script_order": [
-        
+        "eed0f22e-1eda-4f11-b6c4-f9ef98ca67e3",
+        "2e161bcd-e89a-4b1e-886c-9c737405b414"
     ],
     "tutorial": ""
 }

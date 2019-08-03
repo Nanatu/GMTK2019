@@ -11,31 +11,27 @@ if (mouse_check_button_pressed(mb_left) && bullet)
 			other.bullet = false;
 		}
 		reloadSteps = 4;
-		currentDirection = instance_create_layer(x-10, y-100, "Instances", obj_W);
+		
+		currentDirection = instance_create_layer(x-10, y-100, "Instances", obj_W)
+		currentDirection.steps = 2;
 }
 
-if currentDirection == noone
-{	
-	switch reloadSteps
+if (currentDirection == noone)
+{
+	switch roundChoice
 	{
-		case 3:
-		currentDirection =instance_create_layer(x-10, y-100, "Instances", obj_A)
-		show_debug_message("A CREATED");
+	case rounds.BULLET:
+		scr_BulletPattern();
 		break;
 	
-		case 2:
-		currentDirection =instance_create_layer(x-10, y-100, "Instances", obj_S)
-		show_debug_message("S CREATED");
-		break;
-	
-		case 1:
-		currentDirection =instance_create_layer(x-10, y-100, "Instances", obj_D)
-		show_debug_message("D CREATED");
+	case rounds.SHOTGUN:
+		scr_ShotgunPattern();
 		break;
 	}
 }
 
-if reloadSteps == 0
+
+if (reloadSteps <= 0)
 {
 	bullet = true;	
 }
