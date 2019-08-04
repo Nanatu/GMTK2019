@@ -1,8 +1,8 @@
 verb = noone;
-hsp = -1;
+hsp = -.50;
 vsp = 0;
 grv = 5;
 
-hp = 2;
+hp = 10;
 
 flash = 0;

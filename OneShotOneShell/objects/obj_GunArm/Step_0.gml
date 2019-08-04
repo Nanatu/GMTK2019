@@ -6,7 +6,7 @@ if (mouse_check_button(mb_left) && bullet)
 	
 	if roundChoice = rounds.BULLET
 	{
-		with instance_create_layer(x, y, "Instances", obj_Bullet)
+		with instance_create_layer(x, y, "Front", obj_Bullet)
 		{
 			image_angle = other.image_angle;
 			speed = 15;
@@ -18,7 +18,7 @@ if (mouse_check_button(mb_left) && bullet)
 	{
 		for (i = 10; i > 0; i--)
 		{
-			with (instance_create_layer(x,y,"Instances",obj_Shotgun))
+			with (instance_create_layer(x,y,"Front",obj_Shotgun))
 			{
 				image_angle = other.image_angle;
 				speed = 30 + random_range(-5,5);
@@ -30,8 +30,8 @@ if (mouse_check_button(mb_left) && bullet)
 		bullet = false;
 		roundChoice = noone;
 		reloadSteps = 4;
-		instance_create_layer(x+10,y-100,"Instances",obj_SelectShotgun);
-		instance_create_layer(x-70,y-100,"Instances",obj_SelectBullet);
+		instance_create_layer(x+10,y-100,"Front",obj_SelectShotgun);
+		instance_create_layer(x-70,y-100,"Front",obj_SelectBullet);
 	
 }
 

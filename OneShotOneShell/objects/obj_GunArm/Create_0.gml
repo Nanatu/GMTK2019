@@ -2,7 +2,7 @@ bullet = true;
 reloadSteps = 0;
 
 currentDirection = noone;
-roundChoice = noone;
+roundChoice = rounds.BULLET;
 
 arrDirections[0] = obj_W;
 arrDirections[1] = obj_A;

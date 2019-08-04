@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "5bb3e15a-b40d-4dc0-9845-86e84562511e",
+            "Value": {
+                "id": "c216fe57-3022-4ae6-a875-718b71b88ff3",
+                "resourcePath": "objects\\obj_EnemyParent\\obj_EnemyParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5ce2221f-477d-4486-917c-6aeab5cb7d20",
             "Value": {
                 "id": "96126507-8ddd-4efc-aedf-21618a73a6d1",
@@ -327,10 +335,26 @@
             }
         },
         {
+            "Key": "9fd76073-83aa-45be-b53f-6603bc4ef6d1",
+            "Value": {
+                "id": "86470a1e-6fd5-43ab-b71d-42e24357fedf",
+                "resourcePath": "sprites\\spr_WalkerBig\\spr_WalkerBig.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a5fe2ac3-1557-4f65-8c44-f0a0b85d59a9",
             "Value": {
                 "id": "bbe005d3-d14e-41e1-b94c-c6ba9b339ccf",
                 "resourcePath": "sprites\\spr_Shotgun\\spr_Shotgun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a8a1dda8-cf81-432c-be46-dbd4c7f625df",
+            "Value": {
+                "id": "10f46a43-ac6e-4bdd-9dab-40f7668bac5f",
+                "resourcePath": "sprites\\spr_Flyer\\spr_Flyer.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -387,6 +411,38 @@
             "Value": {
                 "id": "aa899b99-ded3-40ca-b7b9-f9bc44ac34b9",
                 "resourcePath": "objects\\obj_W\\obj_W.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c5b4493a-6559-4b9c-b1a2-6975bcc82586",
+            "Value": {
+                "id": "87826193-b773-44b1-9c69-aef3b25de289",
+                "resourcePath": "objects\\obj_WalkerBig\\obj_WalkerBig.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c6dd85db-5669-4ae5-9660-7276ad6f4eea",
+            "Value": {
+                "id": "36216dd9-9737-4861-a0af-cb5ccdad0440",
+                "resourcePath": "rooms\\rm_MainMenu\\rm_MainMenu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c8f0bbe3-1fb1-4e70-9963-a24d6b0b14a0",
+            "Value": {
+                "id": "b4791859-bdd8-4427-968a-a414a99df9a5",
+                "resourcePath": "objects\\obj_MainMenu\\obj_MainMenu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ca66b060-8f10-4d8d-b099-42c52da88f20",
+            "Value": {
+                "id": "b5efe412-c59b-4397-bc65-32d3891c59df",
+                "resourcePath": "objects\\obj_Flyer\\obj_Flyer.yy",
                 "resourceType": "GMObject"
             }
         },
