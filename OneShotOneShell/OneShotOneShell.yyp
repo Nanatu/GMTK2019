@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0677d4db-b5ef-442c-8ad4-63601c644e4c",
+            "Value": {
+                "id": "28ff1bc0-cc03-4f98-ab39-93a94630d56a",
+                "resourcePath": "sprites\\spr_BulletSelect\\spr_BulletSelect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "13c887b9-897e-4abc-aa15-a90a9e32bd0d",
             "Value": {
                 "id": "b77668dc-2a55-4a37-8c8d-4c8df52b34f0",
@@ -143,6 +151,14 @@
             }
         },
         {
+            "Key": "4e5ae229-798a-41c0-a27c-9c71948b942a",
+            "Value": {
+                "id": "827bfa18-d093-487f-ad72-a6dd5fa0e975",
+                "resourcePath": "objects\\obj_Controller\\obj_Controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4eeee19f-2e22-482b-8695-65d9b17dbc9d",
             "Value": {
                 "id": "d59ffcd6-8d90-414a-848b-683a604f8c99",
@@ -164,6 +180,14 @@
                 "id": "f6aa5215-7bb5-4fea-b813-80738ce321d6",
                 "resourcePath": "views\\60d023ab-5fb6-48ac-8a09-5bde1a40882a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "648b161b-f2b2-4a6e-9ea8-e7c75f7f7837",
+            "Value": {
+                "id": "14bb9502-a31c-4639-91c7-46c6fa02548d",
+                "resourcePath": "sprites\\spr_ShotgunSelect\\spr_ShotgunSelect.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -220,6 +244,14 @@
                 "id": "eb516921-80f1-41fc-a4e1-e7f38f9d2f55",
                 "resourcePath": "views\\84ccdc45-b92d-4579-842f-d73215ffed2f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "84ee2ead-135e-4e09-a7c9-04525dd11fb0",
+            "Value": {
+                "id": "2bb5345b-eebe-4981-9721-19e346acbc5b",
+                "resourcePath": "objects\\obj_SelectBullet\\obj_SelectBullet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -420,6 +452,14 @@
                 "id": "7f692434-71d3-4a76-a5d1-fefb3ec95603",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "ff1fedf0-be64-4a5d-9776-0bb10e67a523",
+            "Value": {
+                "id": "7341649e-f96a-41e3-987a-f8902a786ebd",
+                "resourcePath": "objects\\obj_SelectShotgun\\obj_SelectShotgun.yy",
+                "resourceType": "GMObject"
             }
         }
     ],

@@ -30,18 +30,26 @@ if (mouse_check_button(mb_left) && bullet)
 		bullet = false;
 		roundChoice = noone;
 		reloadSteps = 4;
+		instance_create_layer(x+10,y-100,"Instances",obj_SelectShotgun);
+		instance_create_layer(x-70,y-100,"Instances",obj_SelectBullet);
+	
 }
 
 if (currentDirection == noone)
 {
+	
 	if keyboard_check_pressed(ord("W")) && roundChoice == noone
 	{
 	roundChoice = rounds.BULLET;
+	instance_destroy(obj_SelectBullet);
+	instance_destroy(obj_SelectShotgun);
 	}
 	
 	if keyboard_check_pressed(ord("S")) && roundChoice == noone
 	{
 	roundChoice = rounds.SHOTGUN;
+	instance_destroy(obj_SelectBullet);
+	instance_destroy(obj_SelectShotgun);
 	}
 	
 	switch roundChoice

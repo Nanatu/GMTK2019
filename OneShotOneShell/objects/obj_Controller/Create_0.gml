@@ -1,0 +1,1 @@
+walkerTimer = 0;
