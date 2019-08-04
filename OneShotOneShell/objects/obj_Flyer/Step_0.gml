@@ -2,6 +2,7 @@ var ex, ey;
 
 if hp <= 0
 {
+	global.killCounter++;
 instance_destroy();	
 }
 

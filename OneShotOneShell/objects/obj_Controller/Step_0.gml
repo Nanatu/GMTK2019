@@ -1,3 +1,7 @@
+if room == rm_Game
+{
+	
+
 walkerTimer--;
 flyerTimer--;
 if (walkerTimer <= 0)
@@ -11,14 +15,16 @@ if (walkerTimer <= 0)
 		instance_create_layer(x-70,y-100,"Instances",obj_WalkerBig);
 	}
 
-walkerTimer = 90 + random_range(-15,60);
+walkerTimer = 90 + random_range(-10,70);
 }
 
 if flyerTimer <= 0
 {
-for (i = 3; i > 0; i--)
+for (flyerRandom = random_range(1,3); flyerRandom > 0; flyerRandom--)
 		{
 		instance_create_layer(x,y - random_range(100,300),"Instances",obj_Flyer);
 		}
-		flyerTimer = 120 + random_range(-15,60);
+		flyerTimer = 130 + random_range(-20,60);
+}
+
 }

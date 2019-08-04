@@ -1,5 +1,5 @@
 verb = noone;
-hsp = -1;
+hsp = -.75;
 vsp = 0;
 grv = 0;
 

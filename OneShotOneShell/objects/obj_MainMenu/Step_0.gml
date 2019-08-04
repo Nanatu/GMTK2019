@@ -1,6 +1,13 @@
-menuMove = keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up);
+menuMove = keyboard_check_pressed(ord("S")) - keyboard_check_pressed(ord("W"));
 
-select = keyboard_check_pressed(vk_enter);
+if (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space))
+{
+select = true;	
+}
+else
+{
+select = false;	
+}
 
 menuIndex += menuMove;
 
@@ -19,12 +26,8 @@ if (select)
 			room_goto(rm_Game)
 			break;
 		case 1:
-			//Credits
-			break;
-		case 2:
 			game_end();
 			break;
-		
 		
 	}
 }
